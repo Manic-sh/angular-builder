@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { BuilderModule } from '@builder.io/angular';
 import { HeroPageComponent } from './hero-page/hero-page.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { UiCardComponent } from './ui-card/ui-card.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     HeroPageComponent,
     PageNotFoundComponent,
     LandingPageComponent,
-    ProductsComponent
+    ProductsComponent,
+    UiCardComponent
   ],
   imports: [
     BrowserModule,
